@@ -10,7 +10,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import nest_asyncio
 
-# Для разрешения вложенного выполнения асинхронных функций в среда
+# Для разрешения вложенного выполнения асинхронных функций
 nest_asyncio.apply()
 
 # Ирисы Фишера
