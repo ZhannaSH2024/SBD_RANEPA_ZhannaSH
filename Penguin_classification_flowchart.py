@@ -5,7 +5,6 @@ def draw_flowchart():
     dot = Digraph(comment='Алгоритм классификации пингвинов')
     dot.attr(fontname='Arial', fontsize='12')
 
-    # Добавляем блоки с русскими названиями
     dot.node('A', 'Загрузка данных', style='filled', fillcolor='#FFCC80', shape='box', fontsize='10')
     dot.node('B', 'Очистка данных', style='filled', fillcolor='#FFAB91', shape='box', fontsize='10')
     dot.node('C', 'Преобразование категориальной\nпеременной виды пингвинов \nв числа', style='filled', fillcolor='#80CBC4', shape='box', fontsize='10')
